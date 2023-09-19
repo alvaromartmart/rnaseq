@@ -44,6 +44,15 @@
                     "type": "boolean",
                     "fa_icon": "fas fa-save",
                     "description": "Save FastQ files after merging re-sequenced libraries in the results directory."
+                },
+                "extra": {
+                    "type": ["array", "null"],
+                    "description": "A test input of array type",
+                    "minItems": 1,
+                    "items": {
+                        "type": "integer",
+                        "description": "a number"
+                    }
                 }
             }
         },
